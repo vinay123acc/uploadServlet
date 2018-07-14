@@ -52,7 +52,7 @@ public class UploadServlet extends HttpServlet {
 	}
 
 	/**
-	 * Extracts file name from HTTP header content-disposition
+	 * Extracts file name from HTTP header content-disposition-adding to git
 	 */
 	private String extractFileName(Part part) {
 		String contentDisp = part.getHeader("content-disposition");
